@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.text_h1{
+	text-align: center;
+	color:white;
+	background-color: black;
+	font-family: 'Exo 2', sans-serif;
+	font-family: 'Pixelify Sans', sans-serif;}
+
+.bagr{
+	background-image: url(foto/asvalt.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0px;
+	height: 100vh;
+}
+.href_foto{
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+.href_foto{
+	display: grid;
+	grid-template-columns: repeat(4, 150px);
+	gap:100px;
+}
+
+.href_foto > div {
+	position: relative;
+}
+.href_foto > div > div{
+	opacity: 0;
+	height: 0;	
+	top: 50px;
+	left: -50px;
+	
+	position: absolute;
+	z-index: -1;	
+}
+.href_foto > div:hover div {
+	opacity: 1;
+	height:auto;
+	top: 0px;
+	left:220px;
+	z-index: 1;
+	transform: rotate(0deg);
+	transition: opacity 1s ease, left 1s ease-in, transform 1s;	
+}
+
+.f1{  width: 200px; height:200px; margin: 5px;     }
+.f2{  width: 200px; height:200px; margin: 5px;     }
+.f3{  width: 200px; height:200px; margin: 5px;     }
+.f4{  width: 200px; height:200px; margin: 5px;     }
+.f5{  width: 200px; height:200px; margin: 5px;     }
+.f6{  width: 200px; height:200px; margin: 5px;     }
+.f7{  width: 200px; height:200px; margin: 5px;     }
+.f8{  width: 200px; height:200px; margin: 5px;     } 
+
+
+.mf1{width: 400px; height:200px;}
+.mf2{width: 400px; height:200px;}
+.mf3{width: 400px; height:200px;}
+.mf4{width: 400px; height:200px;}
+.mf5{width: 400px; height:200px;}
+.mf6{width: 400px; height:200px;}
+.mf7{width: 400px; height:200px;}
+.mf8{width: 400px; height:200px;}
+
+
+
+/*
+.anim_foto1{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto1:hover .anim_foto1{
+	display: block;
+	top: 200px;	
+}
+
+.anim_foto2{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto2:hover .anim_foto2{
+	display: block;	
+	top: 200px;	
+}
+
+.anim_foto3{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto3:hover .anim_foto3{
+	display: block;
+	top: 200px;	
+}
+
+.anim_foto4{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto4:hover .anim_foto4{
+	display: block;
+	top: 200px;	
+}
+
+.anim_foto5{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto5:hover .anim_foto5{
+	display: block;
+	top: 200px;	
+}
+
+.anim_foto6{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto6:hover .anim_foto6{
+	display: block;
+	top: 200px;	
+}
+
+.anim_foto7{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto7:hover .anim_foto7{
+	display: block;
+	top: 200px;	
+}
+
+.anim_foto8{
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.href_foto8:hover .anim_foto8{
+	display: block;
+	top: 200px;	
+}
+*/
